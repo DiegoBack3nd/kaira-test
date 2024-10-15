@@ -20,7 +20,7 @@ class ShortUrlTest extends TestCase
     }
 
     /**
-     * Verifies that a valid Bearer token is accepted
+     * Simulates a call to the api with a valid token
      */
     public function test_it_accepts_a_valid_bearer_token(): void
     {
@@ -28,7 +28,7 @@ class ShortUrlTest extends TestCase
     }
 
     /**
-     * Verifies that an invalid Bearer token is rejected.
+     * Simulates a call to the api with an invalid token
      */
     public function test_it_rejects_an_invalid_bearer_token(): void
     {
